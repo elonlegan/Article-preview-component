@@ -29,7 +29,7 @@ img {
 
 .container {
   width: 90vw;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -102,4 +102,57 @@ img {
   background-image: url(../images/icon-share.svg);
   border-radius: 50%;
   background-color: var(--Light-Grayish-Blue);
+  z-index: 2;
+}
+
+.share-section {
+  display: none;
+}
+
+/*----------------------- SHARE SECTION-----------------*/
+.footer.active {
+  padding: 0;
+}
+.share-section.active {
+  position: absolute;
+  background-color: var(--Very-Dark-Grayish-Blue);
+  width: 90vw;
+  height: 65px;
+  display: flex;
+  border-radius: 0 0 15px 15px;
+}
+
+.share-container {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.share-text {
+  color: var(--Grayish-Blue);
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 0.8125rem;
+  letter-spacing: 5px;
+}
+
+.icon-share.active {
+  margin-right: 30px;
+  background-color: var(--Desaturated-Dark-Blue);
+  background-image: url(../images/icon-share-active.svg);
+}
+.icon-facebook {
+  margin-right: 10px;
+  background-image: url(../images/icon-facebook.svg);
+  border-radius: 50%;
+}
+.icon-twitter {
+  margin-right: 10px;
+  background-image: url(../images/icon-twitter.svg);
+  border-radius: 50%;
+}
+.icon-github {
+  margin-right: 10px;
+  background-image: url(../images/icon-pinterest.svg);
+  border-radius: 50%;
 }

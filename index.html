@@ -32,7 +32,7 @@
           felt slightly bare and uninviting. I’ve got some simple tips to help
           you make any room feel complete.
         </p>
-        <footer class="footer">
+        <footer class="footer" id="footer">
           <div class="avatar">
             <figure class="avatar-image">
               <img src="images/avatar-michelle.jpg" alt="" />
@@ -42,9 +42,34 @@
               <span class="date"> 28 Jun 2020 </span>
             </class>
           </div>
-          <div class="icon icon-share"></div>
+          <div
+            class="icon icon-share"
+            id="icon-share"
+            onclick="changeClassName()"
+          ></div>
+          <section class="share-section" id="share">
+            <div class="share-container">
+              <span class="share-text">Share</span>
+              <a
+                href="https://twitter.com/elonlegan"
+                class="icon icon-twitter"
+                target="_blank"
+              ></a>
+              <a
+                href="https://facebook.com/elonlegan"
+                class="icon icon-facebooks"
+                target="_blank"
+              ></a>
+              <a
+                href="https://github.com/elonlegan"
+                class="icon icon-github"
+                target="_blank"
+              ></a>
+            </div>
+          </section>
         </footer>
       </div>
     </main>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
