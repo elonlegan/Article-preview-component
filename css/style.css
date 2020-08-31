@@ -144,15 +144,13 @@ img {
 .icon-facebook {
   margin-right: 10px;
   background-image: url(../images/icon-facebook.svg);
-  border-radius: 50%;
 }
 .icon-twitter {
   margin-right: 10px;
   background-image: url(../images/icon-twitter.svg);
-  border-radius: 50%;
 }
 .icon-github {
+  background-size: 20px;
   margin-right: 10px;
-  background-image: url(../images/icon-pinterest.svg);
-  border-radius: 50%;
+  background-image: url(../images/icon-github.svg);
 }
