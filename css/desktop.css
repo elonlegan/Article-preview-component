@@ -1,0 +1,48 @@
+.container {
+  height: 280px;
+  display: flex;
+  overflow: initial;
+}
+
+.hero-image {
+  height: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+.footer {
+  padding-bottom: 30px;
+}
+
+.footer.active {
+  padding: 0 30px 30px;
+}
+
+.share-section {
+  border-radius: 10px;
+  width: auto;
+  position: relative;
+  bottom: 60px;
+  left: 111px;
+}
+
+.icon-share.active {
+  position: relative;
+  right: -350px;
+  margin: 0;
+}
+
+.hero-image {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.avatar.active {
+  position: absolute;
+}

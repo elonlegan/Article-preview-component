@@ -29,6 +29,7 @@ img {
 
 .container {
   width: 90vw;
+  max-width: 730px;
   border-radius: 15px;
   overflow: hidden;
   background-color: white;
@@ -42,10 +43,6 @@ img {
 .hero-image {
   height: 180px;
   object-fit: cover;
-}
-
-.text-container {
-  height: calc(100% - 180px);
 }
 
 .title {
@@ -107,6 +104,11 @@ img {
 
 .share-section {
   display: none;
+  position: absolute;
+  background-color: var(--Very-Dark-Grayish-Blue);
+  width: 90vw;
+  height: 65px;
+  border-radius: 0 0 15px 15px;
 }
 
 /*----------------------- SHARE SECTION-----------------*/
@@ -114,12 +116,7 @@ img {
   padding: 0;
 }
 .share-section.active {
-  position: absolute;
-  background-color: var(--Very-Dark-Grayish-Blue);
-  width: 90vw;
-  height: 65px;
   display: flex;
-  border-radius: 0 0 15px 15px;
 }
 
 .share-container {
